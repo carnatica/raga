@@ -1,8 +1,8 @@
 {
-  "name": "webpack-library-starter",
-  "version": "0.1.3",
-  "description": "Produce universal library with webpack and es6",
-  "main": "lib/library.js",
+  "name": "raga",
+  "version": "0.0.1",
+  "description": "Conceptual representation of ragas in Carnatic music",
+  "main": "lib/raga.js",
   "scripts": {
     "build": "webpack --mode=build",
     "dev": "webpack --progress --colors --watch --mode=dev",
@@ -20,25 +20,21 @@
     "eslint-loader": "1.1.0",
     "mocha": "2.3.4",
     "webpack": "1.12.9",
-    "yargs": "3.32.0"
+    "yargs": "3.32.0",
+    "minimatch": "^3.0.3"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/krasimir/webpack-library-starter.git"
+    "url": "https://github.com/carnatica/raga"
   },
   "keywords": [
-    "webpack",
-    "es6",
-    "starter",
-    "library",
-    "universal",
-    "umd",
-    "commonjs"
+    "raga",
+    "carnatic"
   ],
-  "author": "Krasimir Tsonev",
+  "author": "Kumar Iyer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/krasimir/webpack-library-starter/issues"
+    "url": "https://github.com/carnatica/raga/issues"
   },
-  "homepage": "https://github.com/krasimir/webpack-library-starter"
+  "homepage": "https://github.com/carnatica/raga"
 }

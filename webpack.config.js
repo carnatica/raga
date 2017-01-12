@@ -3,7 +3,7 @@ var UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 var path = require('path');
 var env = require('yargs').argv.mode;
 
-var libraryName = 'Library';
+var libraryName = 'Raga';
 
 var plugins = [], outputFile;
 
@@ -15,7 +15,7 @@ if (env === 'build') {
 }
 
 var config = {
-  entry: __dirname + '/src/index.js',
+  entry: __dirname + '/src/raga.js',
   devtool: 'source-map',
   output: {
     path: __dirname + '/lib',
