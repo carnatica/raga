@@ -1,9 +1,9 @@
-import chai from 'chai';
-import Sthayi from '../src/sthayi.js';
+//import chai from 'chai';
+//import Sthayi from '../src/sthayi.js';
 
-const expect = chai.expect;
+//const expect = chai.expect;
 
-describe('Sthayi', function () {
+/*describe('Sthayi', function () {
   
   describe('Mandra sthayi', function () {
     it('is on the lower octave', () => {
@@ -22,4 +22,4 @@ describe('Sthayi', function () {
       expect(Sthayi.Tara.getFrequencyMultiplier()).to.be.equal(2);
     });
   });
-});
+});*/
